@@ -3,6 +3,8 @@ import Home from "../Pages/Home/Home/Home";
 import AdminDashboard from "../Pages/AdminDashboard/AdminDashboard";
 import UserDashboard from "../Pages/UserDashboard/UserDashboard";
 import Layout from "../Pages/Layout/Layout";
+import TimeSheet from "../Pages/UserDashboard/TimeSheet/TimeSheet";
+import TimeSheetForm from "../Pages/UserDashboard/TimeSheetForm/TimeSheetForm";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
       {
         path: "/userDashboard",
         element: <UserDashboard></UserDashboard>,
+      },
+      {
+        path: "/timesheet",
+        element: <TimeSheet></TimeSheet> ,
+      },
+      {
+        path: "/timeSheetForm",
+        element: <TimeSheetForm></TimeSheetForm> ,
       },
     ],
   },

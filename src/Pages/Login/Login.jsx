@@ -21,7 +21,7 @@ const Login = () => {
                     placeholder="Employ ID"
                   />
                 </div>
-                <div className="my-3 ">
+                {/* <div className="my-3 ">
                   <input
                     type="text"
                     className="form-control form-control-lg"
@@ -34,7 +34,7 @@ const Login = () => {
                     className="form-control form-control-lg"
                     placeholder="Grade"
                   />
-                </div>
+                </div> */}
                 <div className="my-3 ">
                   <input
                     type="email"
