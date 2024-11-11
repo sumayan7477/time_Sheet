@@ -1,8 +1,9 @@
+import EmployOverView from "./EmployOverView/EmployOverView";
 
 const AdminDashboard = () => {
     return (
         <div>
-            Admin Dashboard
+           <EmployOverView></EmployOverView>
         </div>
     );
 };
