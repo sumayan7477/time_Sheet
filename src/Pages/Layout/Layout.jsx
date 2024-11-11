@@ -7,11 +7,8 @@ const Layout = () => {
       <Navbar></Navbar>
       <div className="main px-lg-4 px-md-4">
         <Header></Header>
-        <div className="body d-flex py-3">
-          <div className="container-xxl">
-                <Outlet></Outlet>
-          </div>
-        </div>
+        <Outlet></Outlet>
+        
       </div>
       
     </div>
