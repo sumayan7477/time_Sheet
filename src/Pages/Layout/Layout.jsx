@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "../../Compoments/Header/Header";
 import Navbar from "../../Compoments/Navbar/Navbar";
+import TemplateSetting from "../../Compoments/TemplateSetting/TemplateSetting";
 const Layout = () => {
   return (
     <div id="mytask-layout">
@@ -10,7 +11,7 @@ const Layout = () => {
         <Outlet></Outlet>
         
       </div>
-      
+      <TemplateSetting></TemplateSetting>
     </div>
   );
 };
