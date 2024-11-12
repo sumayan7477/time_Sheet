@@ -53,7 +53,7 @@ const Signup = () => {
                                     <div className="form-label">
                                         <span className="d-flex justify-content-between align-items-center">
                                             Password
-                                            <a className="text-secondary" href="auth-password-reset.html">Forgot Password?</a>
+                                            <a className="text-secondary" >Forgot Password?</a>
                                         </span>
                                     </div>
                                     <input type="password" className="form-control form-control-lg" placeholder="***************"/>
@@ -68,10 +68,10 @@ const Signup = () => {
                                 </div>
                             </div>
                             <div className="col-12 text-center mt-4">
-                                <a href="index.html" className="btn btn-lg btn-block btn-light lift text-uppercase" atl="signin">SIGN IN</a>
+                                <a  className="btn btn-lg btn-block btn-light lift text-uppercase" atl="signin">SIGN IN</a>
                             </div>
                             <div className="col-12 text-center mt-4">
-                                <span className="text-muted">Don&apos;t have an account yet? <a href="auth-signup.html" className="text-secondary">Sign up here</a></span>
+                                <span className="text-muted">Don&apos;t have an account yet? <a  className="text-secondary">Sign up here</a></span>
                             </div>
                         </form>
                         {/* <!-- End Form --> */}

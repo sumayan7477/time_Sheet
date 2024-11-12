@@ -1,4 +1,4 @@
-import { FaHome } from "react-icons/fa";
+import { FaBriefcase, FaHome } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { MdAssessment } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ const Navbar = () => {
       style={{ background: "#4C3575" }}
     >
       <div className="d-flex flex-column h-100">
-        <a href="index-2.html" className="mb-0 brand-icon">
+        <a className="mb-0 brand-icon">
           <span className="logo-icon">
             <svg
               width="35"
@@ -64,8 +64,21 @@ const Navbar = () => {
                   <span>User Dashboard</span>
                 </Link>
               </li>
+              
             </ul>
+
           </li>
+          <li  className="collapsed">
+                    <a className="m-link"  data-bs-toggle="collapse" data-bs-target="#project-Components" href="#">
+                        <FaBriefcase className=" fs-5"></FaBriefcase><span> Projects</span> <span className="arrow  ms-auto text-end fs-5"><IoIosArrowDown /></span></a>
+                    
+                    <ul className="sub-menu collapse" id="project-Components">
+                        <li><Link to='/projects' className="ms-link" ><span>Projects</span></Link></li>
+                        <li><Link to='/task' className="ms-link" ><span>Tasks</span></Link></li>
+                        <li><Link to='/timesheet' className="ms-link" ><span>Timesheet</span></Link></li>
+                        <li><Link to='/Leaders' className="ms-link" ><span>Leaders</span></Link></li>
+                    </ul>
+                </li>
         </ul>
 
         {/* <!-- Menu: menu collepce btn --> */}
